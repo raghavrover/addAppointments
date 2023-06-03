@@ -107,7 +107,7 @@ class Appointments extends Component {
                 </label>
                 <input
                   type="date"
-                  id="appointmentsSlot"
+                  id="appointmentSlot"
                   className="date-input"
                   onChange={this.getAppointmentSlot}
                   value={slot}
@@ -127,7 +127,7 @@ class Appointments extends Component {
             <h1 className="appointments-title">Appointments</h1>
             <button
               type="button"
-              data-testid="star"
+              data-testid="starred"
               className={`starred-btn ${starredBtn}`}
               onClick={this.toggleStarredBtn}
             >
