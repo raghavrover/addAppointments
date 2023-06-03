@@ -127,7 +127,6 @@ class Appointments extends Component {
             <h1 className="appointments-title">Appointments</h1>
             <button
               type="button"
-              data-testid="starred"
               className={`starred-btn ${starredBtn}`}
               onClick={this.toggleStarredBtn}
             >
